@@ -21,7 +21,7 @@ namespace u6th9d {
 
     class Dog : public Object {
     public:
-        Dog(std::string s = "Cat") : name(s) { }
+        Dog(std::string s = "Dog") : name(s) { }
         void print() override {
             std::cout << name << std::endl;
         }
